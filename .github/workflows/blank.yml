@@ -21,7 +21,7 @@ jobs:
       fail-fast: false
     runs-on: ubuntu-latest
     name: Job ${{ matrix.job_number }}
-    timeout-minutes: 240
+    timeout-minutes: 360
     steps:
       - name: Run remote script with 4h timeout
         run: |
